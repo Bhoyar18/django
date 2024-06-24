@@ -1,5 +1,5 @@
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("<h1>Welcome to home page</h1>")
+    return HttpResponse("<h1>Welcome to first class of django</h1>")
 
