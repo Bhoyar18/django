@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'App',
     'App2',
     'App3',
+    'routingapp',
 
 ]
 

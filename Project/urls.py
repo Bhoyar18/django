@@ -21,6 +21,7 @@ from django.urls import path
 from App import views as v1
 from App2 import views as v2
 from App3 import views as v3
+from routingapp import views as v4
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,4 +29,6 @@ urlpatterns = [
     path('home1/',v1.index,name='index1'),
     path('home2/',v2.index,name='index2'),
     path('home3/',v3.index,name='index3'),
+    path('home4/',v4.index,name='index4'),
 ]
+
